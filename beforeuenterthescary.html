@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>⚠️ Warning 👻</title>
+</head>
+<body>
+    <center>
+        <h1>⚠️ <span  class="spooky-text">Warning</span> 👻</h1>
+        <p>This site contains jumpscares and flashing lights</p>
+<button class="btn danger-button">
+    I understand and wish to proceed
+</button>
+        <footer>
+<p>NOTE: this will show up when not found in <code>sessionStorage</code></p>
+        </footer>
+    </center>
+</body>
+<script>
+    document.querySelector('.danger-button').addEventListener('click', () => {
+        sessionStorage.setItem('allowed_approval', 'true');
+        window.location.href = 'index.html';
+    });
+</script>
+</html>
