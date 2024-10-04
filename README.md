@@ -3,7 +3,8 @@
 This is my submission for the spooky boba.
 
 ### What is this exactly
-great question. idk atm wip.
+A website filled with JS powers.
+Low content; But there are hidden easter eggs
 
 ### Why is there a `justfile` & `flake.nix` files?
 those exist because i use them to run liveserver and thats it.
