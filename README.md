@@ -1,12 +1,16 @@
 [![wakatime](https://wakatime.com/badge/user/018eed1d-6093-4f51-9fca-7863b7a1ac97/project/6d1c7337-359a-4665-8962-1447ee72379b.svg)](https://wakatime.com/badge/user/018eed1d-6093-4f51-9fca-7863b7a1ac97/project/6d1c7337-359a-4665-8962-1447ee72379b)
+
 ## Spooky Boba
+
 This is my submission for the spooky boba.
 
 ### What is this exactly
+
 A website filled with JS powers.
 Low content; But there are hidden easter eggs
 
 ### Why is there a `justfile` & `flake.nix` files?
+
 those exist because i use them to run liveserver and thats it.
 <br />
 
