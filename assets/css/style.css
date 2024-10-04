@@ -79,3 +79,29 @@ body,html {
     width: 30px;
     height: 30px;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-text {
+    margin: 0;
+    margin-bottom: -2px;
+    padding: 0;
+
+}
+.img-fire {
+    transition: all 1.5s ease;
+}
+.img-fire:hover {
+border: 1px solid var(--accent);
+border-radius: 10px;
+}
+.trick-or-treat {
+    color: var(--accent);
+}
+.trick-or-treat:hover {
+    background: linear-gradient(var(--accent), var(--text));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

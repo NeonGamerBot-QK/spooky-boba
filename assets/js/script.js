@@ -57,4 +57,7 @@ setInterval(() => {
     document[d].d = d
 delete document[old_d]
 }, 500)
+document.querySelector('.img-fire').addEventListener('click', () => {
+document.getElementById('main').classList.toggle('fire')
+})
 })()
