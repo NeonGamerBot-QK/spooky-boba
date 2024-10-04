@@ -1,107 +1,114 @@
 :root {
-    --rosewater: #f5e0dc;
-    --flamingo: #f2cdcd;
-    --pink: #f5c2e7;
-    --mauve: #cba6f7;
-    --red: #f38ba8;
-    --maroon: #eba0ac;
-    --peach: #fab387;
-    --yellow: #f9e2af;
-    --green: #a6e3a1;
-    --teal: #94e2d5;
-    --sky: #89dceb;
-    --sapphire: #74c7ec;
-    --blue: #89b4fa;
-    --lavender: #b4befe;
-    --text: #cdd6f4;
-    --subtext1: #bac2de;
-    --subtext0: #a6adc8;
-    --overlay2: #9399b2;
-    --overlay1: #7f849c;
-    --overlay0: #6c7086;
-    --surface2: #585b70;
-    --surface1: #45475a;
-    --surface0: #313244;
-    --base: #1e1e2e;
-    --mantle: #181825;
-    --crust: #11111b;
-    --accent: orange;
-    }
-body,html {
-    background-color: var(--mantle);
-    color: var(--text)
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --overlay1: #7f849c;
+  --overlay0: #6c7086;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+  --accent: orange;
+}
+body,
+html {
+  background-color: var(--mantle);
+  color: var(--text);
 }
 .btn {
-    border-radius: 10px;
-    padding: 5px 10px;
-    transition: all 1.5s ease;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 1.5s ease;
 }
 .danger-button {
-    background-color: var(--surface0);
-    color: var(--text);
-    border: 1px solid var(--accent);
-
+  background-color: var(--surface0);
+  color: var(--text);
+  border: 1px solid var(--accent);
 }
 .danger-button:hover {
-    background-color: var(--surface1);
-    color: var(--red);
-    font-weight: bolder;
-    border: 1px solid var(--accent);
+  background-color: var(--surface1);
+  color: var(--red);
+  font-weight: bolder;
+  border: 1px solid var(--accent);
 }
 
 .spooky-text {
-    background: linear-gradient(var(--text), var(--accent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(var(--text), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .img {
-    border-radius: 10px;
-    box-shadow: 0 0 10px 5px var(--accent);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px var(--accent);
 }
 /*  spin */
 .spin {
-    animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
   }
+}
 .grow {
-    animation: grow 2s ease 1;
+  animation: grow 2s ease 1;
+}
+@keyframes grow {
+  from {
+    transform: scale(0);
   }
-  @keyframes grow {
-    from { transform: scale(0); }
-    to { transform: scale(1); }
+  to {
+    transform: scale(1);
   }
+}
 
 .boba-img {
-    margin-left: -2px;
-    width: 30px;
-    height: 30px;
+  margin-left: -2px;
+  width: 30px;
+  height: 30px;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .img-text {
-    margin: 0;
-    margin-bottom: -2px;
-    padding: 0;
-
+  margin: 0;
+  margin-bottom: -2px;
+  padding: 0;
 }
 .img-fire {
-    transition: all 1.5s ease;
+  transition: all 1.5s ease;
 }
 .img-fire:hover {
-border: 1px solid var(--accent);
-border-radius: 10px;
+  border: 1px solid var(--accent);
+  border-radius: 10px;
 }
 .trick-or-treat {
-    color: var(--accent);
+  color: var(--accent);
 }
 .trick-or-treat:hover {
-    background: linear-gradient(var(--accent), var(--text));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(var(--accent), var(--text));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
