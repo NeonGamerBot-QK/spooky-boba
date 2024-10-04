@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 :root {
   --rosewater: #f5e0dc;
   --flamingo: #f2cdcd;
@@ -31,6 +32,9 @@ body,
 html {
   background-color: var(--mantle);
   color: var(--text);
+ font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 .btn {
   border-radius: 10px;
