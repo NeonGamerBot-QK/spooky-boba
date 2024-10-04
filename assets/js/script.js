@@ -1,5 +1,5 @@
 if (!sessionStorage.getItem("allowed_approval"))
-  window.location.href = "/beforeuenterthescary.html";
+  window.location.href = "./beforeuenterthescary.html";
 
 (() => {
   let last_click = null;
