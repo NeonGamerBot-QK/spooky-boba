@@ -1,5 +1,5 @@
 if (!sessionStorage.getItem("allowed_approval"))
-  window.location.href = "./beforeuenterthescary.html";
+  window.location.pathname = "/spooky-boba/beforeuenterthescary.html";
 
 (() => {
   let last_click = null;
