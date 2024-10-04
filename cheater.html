@@ -1,24 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>⚠️ Cheater 👻</title>
-</head>
-<body>
+  </head>
+  <body>
     <center>
-        <h1>⚠️ <span  class="spooky-text">Cheater</span> 👻</h1>
-        <p> The spooky month may contain tricks & treats but you cant trick me with devtools!</p>
-        <button class="btn danger-button">
-            Go back to the main page
-        </button>
-        <script>
-            document.querySelector('.danger-button').addEventListener('click', () => {
-                sessionStorage.setItem('allowed_approval', 'true');
-                window.location.href = 'index.html';
-            });
-        </script>
+      <h1>⚠️ <span class="spooky-text">Cheater</span> 👻</h1>
+      <p>
+        The spooky month may contain tricks & treats but you cant trick me with
+        devtools!
+      </p>
+      <button class="btn danger-button">Go back to the main page</button>
+      <script>
+        document
+          .querySelector(".danger-button")
+          .addEventListener("click", () => {
+            sessionStorage.setItem("allowed_approval", "true");
+            window.location.href = "index.html";
+          });
+      </script>
     </center>
-</body>
+  </body>
 </html>
